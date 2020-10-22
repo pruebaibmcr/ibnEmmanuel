@@ -11,7 +11,7 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Hello IBM World, you have two Rest API available from the Public Internet this one (http://52.149.171.173/) and  http://52.149.171.173/ibmhistoryceos where you will fing IBM Ceo";
+		return "Hello IBM World, you have two Rest API available from the Public Internet, please copy the provided IP Address by Email  ( provided IP Address/ ) and This one provided IP Address/ibmhistoryceos where you will fing IBM Ceos";
 	}
 
 
