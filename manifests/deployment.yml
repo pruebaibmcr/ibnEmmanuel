@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: pruebaibmcribnemmanuel 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pruebaibmcribnemmanuel
+  template:
+    metadata:
+      labels:
+        app: pruebaibmcribnemmanuel 
+    spec:
+      containers:
+        - name: pruebaibmcribnemmanuel 
+          image: pruebatecnicaibmacr.azurecr.io/pruebaibmcribnemmanuel
+          ports:
+          - containerPort: 80
